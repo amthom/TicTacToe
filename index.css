@@ -1,0 +1,157 @@
+
+/* ======= ======= ======= general ======= ======= ======= */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;        /* fluid height */
+    min-height: 100%;
+}
+body {
+    font-family: "Ariel", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/* ======= ======= ======= containers ======= ======= ======= */
+#wrapper {
+    width: 80%;
+    min-width: 620px;
+    height: 100%;        /* fluid height */
+    margin: 1% auto;
+    padding: 0 1%;
+    border: solid 2px orange;
+}
+
+
+/* ======= ======= ======= layout ======= ======= ======= */
+header, footer {
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #eee;
+}
+header {
+    height: 18%;
+}
+aside {
+    float: left;
+    height: 230px;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    margin-bottom: 2%;
+    background-color: #ddd;
+}
+section, #gameboard {
+    float: right;
+    width: 76%;
+    margin: 1%;
+    padding: 1%;
+}
+#gameboard {
+    height: 230px;
+    background-color: coral;
+}
+section {
+    margin-bottom: 2%;
+    background-color: thistle;
+}
+
+/* ======= ======= ======= game ======= ======= ======= */
+aside > p {
+    width: 90%;
+    height: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #eee;
+    color: black;
+}
+aside > p:nth-of-type(3) {
+    height: 60px;
+}
+#message {
+    color: red;
+}
+.playerData {
+    height: 50px;
+    margin: 20px auto;
+    background-color: #ddd;
+}
+.playerData > p {
+    float: left;
+    margin: 16px;
+    margin-left: 60px;
+    width: 20%;
+}
+.playerData > input[type=text] {
+    float: left;
+    height: 30px;
+    margin: 10px;
+    margin-left: 40px;
+    width: 40%;
+    font-size: 1.2em;
+}
+button {
+    float: left;
+    height: 30px;
+    margin: 12px;
+    margin-left: 40px;
+    font-size: 1em;
+    line-height: 1em;
+    width: 20%;
+}
+footer {
+    clear: both;
+    padding: 1% 2%;
+}
+
+/* ======= ======= ======= menu ======= ======= ======= */
+.cell {
+    float: left;
+    width: 31.333%;
+    height: 60px;
+    margin: 1%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2em;
+    background-color: sandybrown;
+    color: purple;
+}
+.cell:hover {
+    background-color: purple;
+    color: white;
+}
+
+/* ======= ======= ======= details ======= ======= ======= */
+#mainTitle {
+    width: 40%;
+    margin: 6% auto;
+    text-align: center;
+    color: black;
+}
+.subTitle {
+    margin: 2px;
+    text-align: center;
+}
+
+
+
+
+
+/* =======  ======= */
+
+
+
